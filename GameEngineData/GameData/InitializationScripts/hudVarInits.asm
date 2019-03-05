@@ -1,5 +1,5 @@
 ;; *************** hudVarInits.asm ***************
-;; User var init export. Tuesday, March 5, 2019 7:17:54 AM
+;; User var init export. Tuesday, March 5, 2019 9:30:57 AM
 
 LDA #0 ; UserVar_0
 STA UserVar_0
@@ -18,5 +18,5 @@ STA UserVar_6
 LDA #0 ; UserVar_7
 STA UserVar_7
 
-;; UserDefined var init export. Tuesday, March 5, 2019 7:17:54 AM
+;; UserDefined var init export. Tuesday, March 5, 2019 9:30:57 AM
 
