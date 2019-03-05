@@ -1,0 +1,59 @@
+;; Animation Tiles data export. Tuesday, March 5, 2019 7:17:52 AM
+
+Main_Animation_Tiles: 
+MainTileAnimIndexTable_Bank1:
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+MainTileAnimIndexTable_Bank2:
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+MainTileAnimIndexTable_Bank3:
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+Screen_Animation_Tiles: 
+ScreenTileAnimIndexTable_Bank1:
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+ScreenTileAnimIndexTable_Bank2:
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+ScreenTileAnimIndexTable_Bank3:
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+	.db #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff, #$ff
+
