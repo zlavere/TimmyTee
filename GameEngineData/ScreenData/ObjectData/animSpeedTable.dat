@@ -1,18 +1,18 @@
 ;; Monster: Player
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$13, #$03, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$12, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$05, #$07, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Projectile Source
 GameItem2_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Projectile
 GameItem3_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Health Pickup
 GameItem4_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -30,13 +30,13 @@ GameItem6_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem7_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Death
 GameItem8_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$04, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 1
 GameItem9_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 2
 GameItem10_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -44,7 +44,7 @@ GameItem10_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 
 ;; Monster: Effect 3
 GameItem11_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 4
 GameItem12_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -62,13 +62,13 @@ GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Tarq
 Object0_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Goob
 Object1_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_animSpeedTable:

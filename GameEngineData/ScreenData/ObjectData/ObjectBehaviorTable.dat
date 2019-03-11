@@ -1,10 +1,10 @@
 ;; Monster: Player
 GameItem0_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$08, #$09, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$08, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Melee
 GameItem1_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$06, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Projectile Source
 GameItem2_ActionTypes:		;;ActionTimer / ActionTypeID
@@ -12,7 +12,7 @@ GameItem2_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: Projectile
 GameItem3_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$09, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Health Pickup
 GameItem4_ActionTypes:		;;ActionTimer / ActionTypeID
@@ -30,13 +30,13 @@ GameItem6_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem7_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Death
 GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 1
 GameItem9_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$06, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 2
 GameItem10_ActionTypes:		;;ActionTimer / ActionTypeID
@@ -44,7 +44,7 @@ GameItem10_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: Effect 3
 GameItem11_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$08, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 4
 GameItem12_ActionTypes:		;;ActionTimer / ActionTypeID
@@ -62,13 +62,13 @@ GameItem14_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Tarq
 Object0_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Goob
 Object1_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$08, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_ActionTypes:

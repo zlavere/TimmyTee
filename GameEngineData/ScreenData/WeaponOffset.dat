@@ -1,13 +1,13 @@
-;;;;;;;;;;;;;Weapon export info: 3/5/2019 9:30:57 AM
-;; Special Offsets Export. Tuesday, March 5, 2019 9:30:57 AM
+;;;;;;;;;;;;;Weapon export info: 3/11/2019 3:06:28 PM
+;; Special Offsets Export. Monday, March 11, 2019 3:06:28 PM
 ;; down, downRight, right, upRight, up, upLeft, Left, downLeft
 
 weaponOffsetTableX:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$0c, #$00, #$10, #$00, #$00, #$00, #$00, #$00
 weaponOffsetTableY:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$10, #$00, #$10, #$00, #$00, #$00, #$00, #$00
 projOffsetTableX:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$17, #$00, #$10, #$00, #$00, #$00, #$00, #$00
 projOffsetTableY:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$0f, #$00, #$10, #$00, #$00, #$00, #$00, #$00
 

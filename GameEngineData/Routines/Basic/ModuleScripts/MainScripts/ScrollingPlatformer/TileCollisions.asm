@@ -109,7 +109,7 @@ dontUseGravity:
 ;;;; Before we update the position, though, if this is a scrolling game, we need to see if the player
 ;;;; is at the edge of the camera.  If he is at the edge of the camera, it
 ;;;; will do a bounds check.
-	;CheckPlayerCameraPosition
+	CheckPlayerCameraPosition
 	   
 ;;;; if it turns out we were outside of the camera bounds, the macro
 ;;;; has RTSed out of this routine, so the hoziontal position will
@@ -123,8 +123,11 @@ dontUseGravity:
 
 
     
-   ; JSR updateHorizontalPosition
+      CheckForHorizontalCollision  ;; <<--- checking solid collisions now
+    
+    JSR updateHorizontalPosition
    ; JSR updateVerticalPosition
+
 	
 ;;;; THis is the end of top down scrolling physics.  It automatically jumps to the proper place.
 ;;;; Otherwise, if there was no collision, we jump to updating the position.

@@ -34,7 +34,7 @@ notAlreadyShooting
     ;;;; x is now the newly created object's x.
     LDA #%11000010
     STA Object_movement,x
-    PlaySound #SND_SHOOT
+    ;PlaySound #SND_SHOOT
 doneShooting:
 
 RTS

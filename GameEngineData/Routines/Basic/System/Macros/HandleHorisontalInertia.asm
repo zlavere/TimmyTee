@@ -151,6 +151,11 @@ doneGettingInertia:
 	;STA Object_scroll,x
 	STA nt_hold
 		
+	;; small fix for the ignore gravity objects (maybe issues with other objects in some another cases?)
+	JSR updateXPosForNonPlayerObjects
+	
+	;;;; here is a macro that handles player guided right scrolling.
+	;;;; you can disable right scrolling by simply commenting this one macro out.
 	;;;; here is a macro that handles player guided right scrolling.
 	;;;; you can disable right scrolling by simply commenting this one macro out.
 	
@@ -190,7 +195,12 @@ inertiaIsNegative:
 	SBC #$00
 	;STA Object_scroll,x
 	STA nt_hold
+	
+	;; small fix for the ignore gravity objects (maybe issues with other objects in some another cases?)
+	JSR updateXPosForNonPlayerObjects
 
+	;;; this handles player guided left scrolling
+	;;; to disable left scrolling, simply comment this one macro out.
 	;;; this handles player guided left scrolling
 	;;; to disable left scrolling, simply comment this one macro out.
 	LDA screenFlags

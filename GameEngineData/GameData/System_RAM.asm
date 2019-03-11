@@ -1,5 +1,5 @@
 ;; *************** System_RAM.asm ***************
-;; Overflow RAM export. Tuesday, March 5, 2019 9:30:57 AM
+;; Overflow RAM export. Monday, March 11, 2019 3:06:29 PM
 
 ;;;soundfx .dsb 1
 canUpdateScreen .dsb 1
@@ -208,12 +208,12 @@ tilesToWrite .dsb 1
 ntTester .dsb 1
 currentMap .dsb 1
 updateHUD_active .dsb 1
+textboxOffsetHold .dsb 1
+moreText .dsb 1
 arg0Temp .dsb 1
 arg1Temp .dsb 1
 arg2Temp .dsb 1
 arg3Temp .dsb 1
-moreText .dsb 1
-textboxOffsetHold .dsb 1
 playerTimer_lo .dsb 1
 playerTimer_hi .dsb 1
 playerTimer_state .dsb 1

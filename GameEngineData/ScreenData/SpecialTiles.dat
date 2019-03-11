@@ -1,9 +1,9 @@
-;; Special Tiles data export. Tuesday, March 5, 2019 9:30:57 AM
+;; Special Tiles data export. Monday, March 11, 2019 3:06:28 PM
 ;; (Slash, Stomp, Secret, Boss)
 
 Special_Tiles: 
 SpecialTilesBank_01:
-    .db #$ff, #$ff, #$ff, #$ff  ; Tileset 00 
+    .db #$20, #$ff, #$ff, #$ff  ; Tileset 00 
     .db #$ff, #$ff, #$ff, #$ff  ; Tileset 01 
     .db #$ff, #$ff, #$ff, #$ff  ; Tileset 02 
     .db #$ff, #$ff, #$ff, #$ff  ; Tileset 03 

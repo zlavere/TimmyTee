@@ -1,5 +1,5 @@
 ;; *************** HUD_DEFINES.dat ***************
-;; HUD defines export. Tuesday, March 5, 2019 9:30:57 AM
+;; HUD defines export. Monday, March 11, 2019 3:06:29 PM
 
 CHECK_SPRITE_ZERO = $00
 SPRITE_ZERO_INDEX = $00

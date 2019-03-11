@@ -4,7 +4,7 @@ GameItem0_EndAction:		;;EndAnimationType / EndActionType
 
 ;; Monster: Melee
 GameItem1_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$44, #$44, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Projectile Source
 GameItem2_EndAction:		;;EndAnimationType / EndActionType
@@ -30,9 +30,9 @@ GameItem6_EndAction:		;;EndAnimationType / EndActionType
 GameItem7_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Death
 GameItem8_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$70, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 1
 GameItem9_EndAction:		;;EndAnimationType / EndActionType
@@ -62,11 +62,11 @@ GameItem14_EndAction:		;;EndAnimationType / EndActionType
 GameItem15_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Tarq
 Object0_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Goob
 Object1_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
